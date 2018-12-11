@@ -2,83 +2,76 @@
 douban movie detail
 
 
-Î¢ÐÅÐ¡³ÌÐòReader&Movie 
+å¾®ä¿¡å°ç¨‹åºMovie 
 ===================================  
    
-ÔËÐÐÏîÄ¿
+è¿è¡Œé¡¹ç›®
 -----------------------------------  
- #### ÏÂÔØÎ¢ÐÅweb¿ª·¢Õß¹¤¾ß£¬cloneÏîÄ¿µ½±¾µØ£¬ÓÃÎ¢ÐÅweb¿ª·¢Õß´ò¿ªÏîÄ¿£¬Ä£ÄâÆ÷ÉÏ£¨±àÒë»òCTRL+S£©²é¿´ÏîÄ¿
-      git clone https://github.com/sunshine824/WeChat_Reader-Movie.git
- #### ×îºóÄ£ÄâÆ÷ÉÏÐ§¹ûÈçÏÂ£º
-  ![](https://github.com/sunshine824/WeChat_Reader-Movie/blob/master/static/jdfw.gif)
+ #### ä¸‹è½½å¾®ä¿¡webå¼€å‘è€…å·¥å…·ï¼Œcloneé¡¹ç›®åˆ°æœ¬åœ°ï¼Œç”¨å¾®ä¿¡webå¼€å‘è€…æ‰“å¼€é¡¹ç›®ï¼Œæ¨¡æ‹Ÿå™¨ä¸Šï¼ˆç¼–è¯‘æˆ–CTRL+Sï¼‰æŸ¥çœ‹é¡¹ç›®
+ #### æœ€åŽæ¨¡æ‹Ÿå™¨ä¸Šæ•ˆæžœå¦‚ä¸‹ï¼š
   
- ÏîÄ¿½á¹¹
+ é¡¹ç›®ç»“æž„
 -----------------------------------
 ```javascript
 .
-©À©¤©¤ README.md
-©À©¤©¤ data                                    // ×Ô¶¨ÒådataÊý¾Ý
-©À©¤©¤ images                                  //¾²Ì¬Í¼Æ¬ÎÄ¼þ¼Ð
-©À©¤©¤ pages
-©¦   ©À©¤©¤ movies                              //µçÓ°Ä£¿é
-©¦   ©¦   ©À©¤©¤ more-movie                      //¸ü¶àµçÓ°Ò³Ãæ
-©¦   ©¦   ©¦   ©¸©¤©¤ more-movie.js
-©¦   ©¦   ©¦   ©¸©¤©¤ more-movie.json             //more-movieÅäÖÃÎÄ¼þ
-©¦   ©¦   ©¦   ©¸©¤©¤ more-movie.wxml
-©¦   ©¦   ©¦   ©¸©¤©¤ more-movie.wxss
-©¦   ©¦   ©À©¤©¤ movie                           //µ¥¸öµçÓ°×é¼þ
-©¦   ©¦   ©À©¤©¤ movie-grid                      //ËùÓÐµçÓ°ÕûºÏµÄ×é¼þ
-©¦   ©¦   ©À©¤©¤ more-list                       //µ¥¸ö·ÖÀàµçÓ°ÁÐ±í
-©¦   ©¦   ©À©¤©¤ movie-detail                    //µçÓ°ÏêÇé
-©¦   ©¦   ©À©¤©¤ stars                           //ÆÀ·Ö×é¼þ
-©¦   ©¦   ©À©¤©¤ movies.js                       //µçÓ°Ä£¿é½Å±¾
-©¦   ©¦   ©À©¤©¤ movies.json
-©¦   ©¦   ©À©¤©¤ movies.wxml 
-©¦   ©¦   ©¸©¤©¤ movies.wxss
-©¦   ©À©¤©¤ posts                              //ÎÄÕÂÄ£¿é
-©¦   ©¦   ©À©¤©¤ post-detail                    //ÎÄÕÂÏêÇé×é¼þ
-©¦   ©¦   ©À©¤©¤ post-item                      //µ¥¸öÎÄÕÂ×é¼þ
-©¦   ©¦   ©À©¤©¤ post.js 
-©¦   ©¦   ©À©¤©¤ post.json  
-©¦   ©¦   ©À©¤©¤ post.wxml 
-©¦   ©¦   ©¸©¤©¤ post.wxss
-©¦   ©À©¤©¤ welcome                           //»¶Ó­Èë¿ÚÎÄ¼þ
-©¦   ©¦   ©À©¤©¤ welcome.js 
-©¦   ©¦   ©À©¤©¤ welcome.json  
-©¦   ©¦   ©À©¤©¤ welcome.wxml 
-©¦   ©¦   ©¸©¤©¤ welcome.wxss
-©À©¤©¤ untils                               //¹«¹²·½·¨Ä£¿é
-©À©¤©¤ ©¸©¤©¤ untils.js
-©À©¤©¤ app.js
-©À©¤©¤ app.json                            //¹«¹²ÅäÖÃÎÄ¼þ
-©À©¤©¤ app.wxss                            //¹«¹²ÑùÊ½±í
-©¸©¤©¤ static
+â”œâ”€â”€ README.md
+â”œâ”€â”€ data                                    // è‡ªå®šä¹‰dataæ•°æ®
+â”œâ”€â”€ images                                  //é™æ€å›¾ç‰‡æ–‡ä»¶å¤¹
+â”œâ”€â”€ pages
+â”‚   â”œâ”€â”€ movies                              //ç”µå½±æ¨¡å—
+â”‚   â”‚   â”œâ”€â”€ more-movie                      //æ›´å¤šç”µå½±é¡µé¢
+â”‚   â”‚   â”‚   â””â”€â”€ more-movie.js
+â”‚   â”‚   â”‚   â””â”€â”€ more-movie.json             //more-movieé…ç½®æ–‡ä»¶
+â”‚   â”‚   â”‚   â””â”€â”€ more-movie.wxml
+â”‚   â”‚   â”‚   â””â”€â”€ more-movie.wxss
+â”‚   â”‚   â”œâ”€â”€ movie                           //å•ä¸ªç”µå½±ç»„ä»¶
+â”‚   â”‚   â”œâ”€â”€ movie-grid                      //æ‰€æœ‰ç”µå½±æ•´åˆçš„ç»„ä»¶
+â”‚   â”‚   â”œâ”€â”€ more-list                       //å•ä¸ªåˆ†ç±»ç”µå½±åˆ—è¡¨
+â”‚   â”‚   â”œâ”€â”€ movie-detail                    //ç”µå½±è¯¦æƒ…
+â”‚   â”‚   â”œâ”€â”€ stars                           //è¯„åˆ†ç»„ä»¶
+â”‚   â”‚   â”œâ”€â”€ movies.js                       //ç”µå½±æ¨¡å—è„šæœ¬
+â”‚   â”‚   â”œâ”€â”€ movies.json
+â”‚   â”‚   â”œâ”€â”€ movies.wxml 
+â”‚   â”‚   â””â”€â”€ movies.wxss
+â”‚   
+â”‚   â”‚   
+â”‚   â”œâ”€â”€ welcome                           //æ¬¢è¿Žå…¥å£æ–‡ä»¶
+â”‚   â”‚   â”œâ”€â”€ welcome.js 
+â”‚   â”‚   â”œâ”€â”€ welcome.json  
+â”‚   â”‚   â”œâ”€â”€ welcome.wxml 
+â”‚   â”‚   â””â”€â”€ welcome.wxss
+â”œâ”€â”€ untils                               //å…¬å…±æ–¹æ³•æ¨¡å—
+â”œâ”€â”€ â””â”€â”€ untils.js
+â”œâ”€â”€ app.js
+â”œâ”€â”€ app.json                            //å…¬å…±é…ç½®æ–‡ä»¶
+â”œâ”€â”€ app.wxss                            //å…¬å…±æ ·å¼è¡¨
+â””â”€â”€ static
 ```
 
- ×¢ÒâÊÂÏî
+ æ³¨æ„äº‹é¡¹
 -----------------------------------
-      1.ÈçºÎÉèÖÃ×ÝÏòÂÖ²¥:vertical="{{true}}"
+      1.å¦‚ä½•è®¾ç½®çºµå‘è½®æ’­:vertical="{{true}}"
 
-      2.ÈçºÎ×èÖ¹ÊÂ¼þÃ°ÅÝ:catch+ÊÂ¼þ
+      2.å¦‚ä½•é˜»æ­¢äº‹ä»¶å†’æ³¡:catch+äº‹ä»¶
 
-      3.wx.navigateTo ÊÇÆ½ÐÐÌø×ª£¬ÓÉÖ÷Ò³ÃæÌøµ½×ÓÒ³Ãæ Ìø×ªºó»á´¥·¢ onHide
-        wx.redirectTo ÊÇÆ½¼¶Ìø×ª Ìø×ªºó»á´¥·¢ onUnload 
+      3.wx.navigateTo æ˜¯å¹³è¡Œè·³è½¬ï¼Œç”±ä¸»é¡µé¢è·³åˆ°å­é¡µé¢ è·³è½¬åŽä¼šè§¦å‘ onHide
+        wx.redirectTo æ˜¯å¹³çº§è·³è½¬ è·³è½¬åŽä¼šè§¦å‘ onUnload 
 
-      4.Èç¹ûÒ³ÃæÊ¹ÓÃÁËtabBar×é¼þ£¬Ö»ÄÜÊ¹ÓÃwx.switchTabÊµÏÖÌø×ª£¬wx.navigateTo¡¢wx.redirectToÔò²»ÐÐ
+      4.å¦‚æžœé¡µé¢ä½¿ç”¨äº†tabBarç»„ä»¶ï¼Œåªèƒ½ä½¿ç”¨wx.switchTabå®žçŽ°è·³è½¬ï¼Œwx.navigateToã€wx.redirectToåˆ™ä¸è¡Œ
 
-      5.ÎªÊ²Ã´»á³öÏÖ¡°½Å±¾´íÎó»òÕßÎ´ÕýÈ·µ÷ÓÃPage()¡±µÄ´íÎóÌáÊ¾£¿
-       *³öÏÖÕâ¸ö´íÎóµÄÔ­ÒòÍ¨³£ÊÇÒòÎª¶ÔÓ¦Ò³ÃæµÄjsÎÄ¼þÀï£¬Ã»ÓÐµ÷ÓÃPage·½·¨¡£¼´Ê¹jsÎÄ¼þÀïÃ»ÓÐÈÎºÎ´úÂë£¬Ò²ÐèÒªÔÚjsÀïÌí¼ÓÒ»¸ö¿ÕµÄ Page({})¡£×¢ÒâPageµÄPÒª´óÐ´¡£
+      5.ä¸ºä»€ä¹ˆä¼šå‡ºçŽ°â€œè„šæœ¬é”™è¯¯æˆ–è€…æœªæ­£ç¡®è°ƒç”¨Page()â€çš„é”™è¯¯æç¤ºï¼Ÿ
+       *å‡ºçŽ°è¿™ä¸ªé”™è¯¯çš„åŽŸå› é€šå¸¸æ˜¯å› ä¸ºå¯¹åº”é¡µé¢çš„jsæ–‡ä»¶é‡Œï¼Œæ²¡æœ‰è°ƒç”¨Pageæ–¹æ³•ã€‚å³ä½¿jsæ–‡ä»¶é‡Œæ²¡æœ‰ä»»ä½•ä»£ç ï¼Œä¹Ÿéœ€è¦åœ¨jsé‡Œæ·»åŠ ä¸€ä¸ªç©ºçš„ Page({})ã€‚æ³¨æ„Pageçš„Pè¦å¤§å†™ã€‚
 
-      6.ÎªÊ²Ã´»á³öÏÖ¡°Expecting ¡®String£¬¡®Number£¬¡®NULL£¬¡®True....¡¯¡±¡¯¡¯µÄ´íÎóÌáÊ¾£¿
-       *³öÏÖÕâ¸ö´íÎóµÄÔ­ÒòÔÚÓÚ¶ÔÓ¦Ò³ÃæµÄjsonÎÄ¼þÃ»ÓÐ¼ÓÈë{ }¡£¼´Ê¹jsonÎÄ¼þÀïÃ»ÓÐÈÎºÎÄÚÈÝ£¬Ò²ÐèÒª¼ÓÈëÒ»¸ö{ }£¬×÷ÎªÄ¬ÈÏ´úÂë¡£jsonÎÄ¼þ²»ÔÊÐí³öÏÖ×¢ÊÍ´úÂë£¬Èç¹ûÓÐ×¢ÊÍµÄ´úÂë£¬Í¬Ñù»á±¨Õâ¸ö´íÎó¡£
+      6.ä¸ºä»€ä¹ˆä¼šå‡ºçŽ°â€œExpecting â€˜Stringï¼Œâ€˜Numberï¼Œâ€˜NULLï¼Œâ€˜True....â€™â€â€™â€™çš„é”™è¯¯æç¤ºï¼Ÿ
+       *å‡ºçŽ°è¿™ä¸ªé”™è¯¯çš„åŽŸå› åœ¨äºŽå¯¹åº”é¡µé¢çš„jsonæ–‡ä»¶æ²¡æœ‰åŠ å…¥{ }ã€‚å³ä½¿jsonæ–‡ä»¶é‡Œæ²¡æœ‰ä»»ä½•å†…å®¹ï¼Œä¹Ÿéœ€è¦åŠ å…¥ä¸€ä¸ª{ }ï¼Œä½œä¸ºé»˜è®¤ä»£ç ã€‚jsonæ–‡ä»¶ä¸å…è®¸å‡ºçŽ°æ³¨é‡Šä»£ç ï¼Œå¦‚æžœæœ‰æ³¨é‡Šçš„ä»£ç ï¼ŒåŒæ ·ä¼šæŠ¥è¿™ä¸ªé”™è¯¯ã€‚
 
-      7.ÎªÊ²Ã´ ³öÏÖ¡° Failed to load image http://2110932784.debug.open.weixin.qq.com/pages/posts/images/post/crab.png : the server responded with a status of 404 (HTTP/1.1 404 Not Found) From server 127.0.0.1¡±
-       *³öÏÖÀàËÆµÄÕâÖÖ´íÎó£¬Í¨³£ÊÇÓÉÓÚÍ¼Æ¬µÄÂ·¾¶²»¶Ô¶øÒýÆðµÄ¡£ÍâÍøµÄÍ¼Æ¬£¬ÎÒÃÇÕâÀï²»ÔÙËµÁË£¬ÒòÎªÃ»ÓÐÏà¶ÔºÍ¾ø¶ÔµÄÂ·¾¶¸ÅÄî£¬Èç¹û±¨´íÁË¾ÍÊÇÄãÍâÍøµÄÍ¼Æ¬url´íÁË¡£ÎÒÃÇËµËµ±¾µØµÄÍ¼Æ¬Â·¾¶ÎÊÌâ¡£Çë×¢Òâ£¬Èç¹ûÍ¼Æ¬Â·¾¶±»Ð´ÔÚÒ»¸öjsÎÄ¼þAÀï£¬¶øBÒýÓÃÁËÕâ¸öjsÎÄ¼þ£¬ÄÇÃ´Í¼Æ¬µÄÂ·¾¶±ØÐëÊÇÏà¶ÔÓÚBµÄÏà¶ÔÂ·¾¶¡£ËùÒÔ£¬×îºÃÔÚ¹«¹²µÄjsÎÄ¼þÀïÊ¹ÓÃ¾ø¶ÔÂ·¾¶¡£
-       »¹ÓÐÒ»µã£¬ÌáÐÑ´ó¼Ò£¬Ð¡³ÌÐò¶Ô×ÊÔ´ÎÄ¼þ£¬±ÈÈçÍ¼Æ¬ÊÇÓÐ»º´æµÄ£¬Õâ¸ö´ó¼ÒÒª×¢Òâ¡£
+      7.ä¸ºä»€ä¹ˆ å‡ºçŽ°â€œ Failed to load image http://2110932784.debug.open.weixin.qq.com/pages/posts/images/post/crab.png : the server responded with a status of 404 (HTTP/1.1 404 Not Found) From server 127.0.0.1â€
+       *å‡ºçŽ°ç±»ä¼¼çš„è¿™ç§é”™è¯¯ï¼Œé€šå¸¸æ˜¯ç”±äºŽå›¾ç‰‡çš„è·¯å¾„ä¸å¯¹è€Œå¼•èµ·çš„ã€‚å¤–ç½‘çš„å›¾ç‰‡ï¼Œæˆ‘ä»¬è¿™é‡Œä¸å†è¯´äº†ï¼Œå› ä¸ºæ²¡æœ‰ç›¸å¯¹å’Œç»å¯¹çš„è·¯å¾„æ¦‚å¿µï¼Œå¦‚æžœæŠ¥é”™äº†å°±æ˜¯ä½ å¤–ç½‘çš„å›¾ç‰‡urlé”™äº†ã€‚æˆ‘ä»¬è¯´è¯´æœ¬åœ°çš„å›¾ç‰‡è·¯å¾„é—®é¢˜ã€‚è¯·æ³¨æ„ï¼Œå¦‚æžœå›¾ç‰‡è·¯å¾„è¢«å†™åœ¨ä¸€ä¸ªjsæ–‡ä»¶Aé‡Œï¼Œè€ŒBå¼•ç”¨äº†è¿™ä¸ªjsæ–‡ä»¶ï¼Œé‚£ä¹ˆå›¾ç‰‡çš„è·¯å¾„å¿…é¡»æ˜¯ç›¸å¯¹äºŽBçš„ç›¸å¯¹è·¯å¾„ã€‚æ‰€ä»¥ï¼Œæœ€å¥½åœ¨å…¬å…±çš„jsæ–‡ä»¶é‡Œä½¿ç”¨ç»å¯¹è·¯å¾„ã€‚
+       è¿˜æœ‰ä¸€ç‚¹ï¼Œæé†’å¤§å®¶ï¼Œå°ç¨‹åºå¯¹èµ„æºæ–‡ä»¶ï¼Œæ¯”å¦‚å›¾ç‰‡æ˜¯æœ‰ç¼“å­˜çš„ï¼Œè¿™ä¸ªå¤§å®¶è¦æ³¨æ„ã€‚
 
-### ¸ü¶à×¢ÒâÊÂÏîÇë²é¿´[Ð¡³ÌÐò×¢ÒâÊÂÏî](https://zhuanlan.zhihu.com/oldtimes)
+### æ›´å¤šæ³¨æ„äº‹é¡¹è¯·æŸ¥çœ‹[å°ç¨‹åºæ³¨æ„äº‹é¡¹](https://zhuanlan.zhihu.com/oldtimes)
 
-### ÐÂÔö¹¦ÄÜ ·ÖÏí É¨¶þÎ¬Âë
+### æ–°å¢žåŠŸèƒ½ åˆ†äº« æ‰«äºŒç»´ç 
  ![](https://github.com/sunshine824/WeChat_Reader-Movie/blob/master/static/IMG_0137.PNG)
  ![](https://github.com/sunshine824/WeChat_Reader-Movie/blob/master/static/IMG_0138.PNG)
  ![](https://github.com/sunshine824/WeChat_Reader-Movie/blob/master/static/IMG_0139.PNG)
